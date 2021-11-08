@@ -43,4 +43,19 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         app:layout_constraintVertical_bias="0.0" />
 
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/git"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="160dp"
+        android:background="#B8B7B7"
+        android:backgroundTint="#A5A1A1"
+        android:text="Quiz"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/git" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
